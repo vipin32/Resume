@@ -1,0 +1,131 @@
+body{
+  font-family: 'Merriweather';
+  margin: 0;
+  text-align: center;
+}
+
+h1{
+  color: #381460;
+  font-family: 'Sacramento';
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0px auto;
+}
+
+h2{
+  color: #381460;
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3{
+  color:#11999E;
+  font-family: 'Montserrat';
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  color: grey;
+  border-top: 5px;
+  width: 10%;
+  border-style: dotted none none;
+  margin: 100px auto;
+}
+
+.top-container{
+  background-color: #00a8cc;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+}
+
+.bottom-cloud{
+  position: absolute;
+}
+
+.middle-container{
+
+}
+
+.profile{
+  width: 45%;
+  margin: 100px auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies-image{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me{
+  width: 40%;
+  margin: 100px auto 100px auto;
+}
+
+.contact-message{
+  width: 50%;
+  margin: 40px auto 50px;
+}
+
+.contact-btn{
+    background: linear-gradient(#8ac6d1,#11999E);
+    color: white;
+    padding: 10px 22px;
+    border-radius: 8px;
+}
+
+.contact-btn:hover{
+    background: linear-gradient(#11999E,#381460);
+}
+
+
+.bottom-container{
+  background-color: #00a8cc;
+  padding: 50px;
+
+}
+
+.footer-link{
+  color: #381460;
+  margin: 10px 30px;
+  font-family: 'Montserrat';
+}
+
+.footer-link:hover{
+  color: white;
+}
+
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  font-family: 'Montserrat';
+  
+}
